@@ -1,0 +1,37 @@
+@startuml
+card Android {
+  card Orgzly
+}
+card pc {
+  card emacs
+}
+folder "Dropbox" as dropbox {
+file inbox.org [
+inbox.org
+----
+頭の中の「気になること」リスト
+]
+file todo.org [
+todo.org
+----
+プロジェクトごとにリストを管理し、以下の状態を持つ
+* TODO
+  行動リスト
+* SOMEDAY
+  いつかやる/多分やるリスト
+* WAIT
+  連絡待ちリスト
+* DOING
+  行動中リスト（1個）
+* DONE/CANCEL
+  終了リスト
+]
+file journal.org [
+journal.org
+----
+振り返った結果をまとめる
+]
+}
+Orgzly --> dropbox : READ/WRITE
+emacs --> dropbox : READ/WRITE
+@enduml
