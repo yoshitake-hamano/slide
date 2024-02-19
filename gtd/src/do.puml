@@ -1,0 +1,20 @@
+@startuml
+TODO : SCHEDULE/DEADLINEを設定する
+WAIT : SCHEDULE/DEADLINEを設定する
+state "DONE/CANCEL" as DONE
+
+[*] --> TODO
+[*] --> SOMEDAY
+
+TODO <- SOMEDAY : スケジュール管理する
+
+TODO --> DOING : 行動開始
+TODO <-- DOING : 行動中断
+
+DOING ---> DONE : 完了
+
+TODO --> WAIT : 他人に任せる
+DOING -> WAIT : 他人に任せる
+WAIT --> DONE : 完了
+DONE --> [*]
+@enduml

@@ -1,6 +1,6 @@
 emacsでGTDしよう
 
-2024/2/16
+2024/2/20
 
 
 浜野義丈
@@ -32,9 +32,228 @@ Getting Things Done(R)の略
 
 GTD x emacsの事例を紹介
 
-* 全体構成
+* GTDの流れ
+
+.image images/gtd-workflow.gif 0 500
+
+* GTD x emacs 全体構成
 
 .image images/structure.png 0 700
+
+* GTDの流れ：次は把握する
+
+.image images/gtd-workflow.gif 0 500
+
+* GTD x emacs 把握する
+
+.image images/capture.png 0 250
+
+* GTD x emacs 把握する
+
+.image images/capture.png 0 250
+
+本には、「二日まるまる確保するのが理想的」と書かれている
+
+* GTD x emacs 把握する
+
+.image images/capture.png 0 250
+
+本には、「二日まるまる確保するのが理想的」と書かれている
+が、毎週そんなに時間をかけてられない
+
+* GTD x emacs 把握する
+
+.image images/capture.png 0 250
+
+本には、「二日まるまる確保するのが理想的」と書かれている
+が、毎週そんなに時間をかけてられない
+
+そのため、以下の方針とした
+
+* GTD x emacs 把握する
+
+.image images/capture.png 0 250
+
+本には、「二日まるまる確保するのが理想的」と書かれている
+が、毎週そんなに時間をかけてられない
+
+そのため、以下の方針とした
+- 思いついたときにすぐINBOXにデータを入れる
+
+* GTD x emacs 把握する
+
+.image images/capture.png 0 250
+
+本には、「二日まるまる確保するのが理想的」と書かれている
+が、毎週そんなに時間をかけてられない
+
+そのため、以下の方針とした
+- 思いついたときにすぐINBOXにデータを入れる
+- タイトルのみの記載に留める
+
+* GTD x emacs 把握する
+
+emacsでC-c c(M-x org-capture)を実行して
+すぐにinboxに作業を記録する。
+
+.code src/org-capture1.txt
+
+* GTD x emacs 把握する
+
+emacsでC-c c(M-x org-capture)を実行して
+すぐにinboxに作業を記録する。
+
+.code src/org-capture1.txt
+
+tを選択して
+
+.code src/org-capture2.txt
+
+* GTD x emacs 把握する
+
+emacsでC-c c(M-x org-capture)を実行して
+すぐにinboxに作業を記録する。
+
+.code src/org-capture1.txt
+
+tを選択して
+
+.code src/org-capture2.txt
+
+C-c C-cで記録。
+
+* GTDの流れ：次は見極める/整理する
+
+.image images/gtd-workflow.gif 0 500
+
+* GTD x emacs 見極める/整理する
+
+.image images/clarify.png 0 180
+
+- 2分で終わることは、すぐ実行
+
+* GTD x emacs 見極める/整理する
+
+.image images/clarify.png 0 180
+
+- 2分で終わることは、すぐ実行
+- inbox.orgからtodo.orgに移動
+
+* GTD x emacs 見極める/整理する
+
+.image images/clarify.png 0 180
+
+- 2分で終わることは、すぐ実行
+- inbox.orgからtodo.orgに移動
+- todo.orgに移動する際、スケジュールする
+
+* GTDの流れ：次は選択する
+
+.image images/gtd-workflow.gif 0 500
+
+* GTD x emacs 選択する
+
+C-c a(M-x org-agenda)を実行
+
+.code src/org-agenda.txt
+
+* GTD x emacs 選択する
+
+C-c a(M-x org-agenda)を実行
+
+.code src/org-agenda.txt
+
+aを選択
+
+.code src/org-agenda-current.txt
+
+* GTD x emacs 選択する
+
+C-c a(M-x org-agenda)を実行
+
+.code src/org-agenda.txt
+
+aを選択
+
+.code src/org-agenda-current.txt
+
+次に行うべき作業を選択
+
+* GTD x emacs 実行する
+
+各タスクのサンプル
+
+.code src/todo.txt
+
+* GTD x emacs 実行する
+
+各タスクのサンプル
+
+.code src/todo.txt
+
+- 作業内容/メモを記録
+
+* GTD x emacs 実行する
+
+各タスクのサンプル
+
+.code src/todo.txt
+
+- 作業内容/メモを記録
+- 中断後、再開しても忘れない
+
+* GTD x emacs 実行する
+
+.image images/do.png 0 350
+
+* GTD x emacs 実行する
+
+.image images/do.png 0 350
+
+- C-c C-t(M-x org-todo)で状態遷移
+
+* GTD x emacs 実行する
+
+.image images/do.png 0 350
+
+- C-c C-t(M-x org-todo)で状態遷移
+- DOING状態の時間を自動記録（elispで実装）
+
+* GTD x emacs 実行する
+
+.image images/do.png 0 350
+
+- C-c C-t(M-x org-todo)で状態遷移
+- DOING状態の時間を自動記録（elispで実装）
+- 定例業務/会議を繰り返し設定（org-modeの機能）
+
+* GTDの流れ：次は更新する
+
+.image images/gtd-workflow.gif 0 500
+
+* GTD x emacs 更新する
+
+- 月曜日の朝、週次レビューを実施
+- 工数の観点
+- トイルの観点
+- KPTの観点
+
+* GTD x emacs 更新する
+
+memo.orgなどに以下ブロックを書き
+
+.code src/clock-template.txt
+
+* GTD x emacs 更新する
+
+memo.orgなどに以下ブロックを書き
+
+.code src/clock-template.txt
+
+C-c C-x C-u(M-x org-dblock-update)を実行すると
+次のようにDOINGの経過時間を集計することができる。
+
+.code src/clock-example.txt
 
 * 
 

@@ -1,0 +1,16 @@
+@startuml
+start
+:inbox.org; <<input>>
+
+if (2分以内にできるか？) then (yes)
+:行動する;
+stop
+endif
+
+:プロジェクトを選択する;
+:状態をTODO or SOMEDAYに変更する
+※todo.orgの状態遷移に従う;
+:todo.org; <<output>>
+
+stop
+@enduml

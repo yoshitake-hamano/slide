@@ -1,0 +1,6 @@
+@startuml
+start
+:頭の中の「気になること」すべて;
+:inbox.org; <<output>>
+stop
+@enduml

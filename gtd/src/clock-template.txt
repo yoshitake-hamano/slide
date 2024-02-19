@@ -1,0 +1,3 @@
+#+BEGIN: clocktable :maxlevel 3 :scope agenda :tags "" :tstart "<2024-01-01>" :tend "<+1d>"
+#+CAPTION:
+#+END

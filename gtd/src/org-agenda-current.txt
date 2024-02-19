@@ -1,0 +1,10 @@
+Week-agenda (W01):
+Monday      1 January 2024 W01
+Tuesday     2 January 2024
+Wednesday   3 January 2024
+Thursday    4 January 2024
+Friday      5 January 2024
+Saturday    6 January 2024
+Sunday      7 January 2024
+  todo:       Scheduled:  TODO task1
+  todo:       In   7 d.:  TODO task1

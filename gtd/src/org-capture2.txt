@@ -1,0 +1,2 @@
+Capture buffer.  Finish ‘C-c C-c’, refile ‘C-c C-w’, abort ‘C-c C-k’.
+** TODO

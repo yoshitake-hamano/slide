@@ -1,0 +1,4 @@
+Press key for an agenda command:
+--------------------------------        <   Buffer, subtree/region restriction
+a   Agenda for current week or day      >   Remove restriction
+t   List of all TODO entries            e   Export agenda views

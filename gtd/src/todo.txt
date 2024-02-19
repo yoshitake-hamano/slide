@@ -1,0 +1,6 @@
+#+TODO: TODO(t) WAIT(w) DOING(i) | DONE(d) SOMEDAY(s) CANCEL(c)
+
+* todo
+** proj_a [0/1]
+*** TODO task1
+SCHEDULED: <2024-01-07 日 +1w>

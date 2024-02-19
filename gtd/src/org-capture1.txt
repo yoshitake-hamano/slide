@@ -1,0 +1,8 @@
+Select a capture template
+=========================
+
+[t]     Todo
+[j]     Journal
+------------------------------------------
+[C]     Customize org-capture-templates
+[q]     Abort
